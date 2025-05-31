@@ -777,7 +777,7 @@ export default function DLFPrivanaHome() {
                       <span className="text-green-600 text-2xl">✓</span>
                     </div>
                     <h4 className="text-xl font-medium text-gray-800 mb-2">Thank You!</h4>
-                    <p className="text-gray-600">We've received your message and will be in touch shortly.</p>
+                    <p className="text-gray-600">We&apos;ve received your message and will be in touch shortly.</p>
                   </div>
                 ) : (
                   <form onSubmit={handleContactSubmit}>
@@ -961,7 +961,7 @@ export default function DLFPrivanaHome() {
                       <span className="text-green-600 text-2xl">✓</span>
                     </div>
                     <h4 className="text-lg font-medium text-gray-800 mb-2">Thank You!</h4>
-                    <p className="text-gray-600 text-sm">We've received your information and will be in touch shortly.</p>
+                    <p className="text-gray-600 text-sm">We&apos;ve received your information and will be in touch shortly.</p>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit}>
